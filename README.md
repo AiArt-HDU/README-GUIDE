@@ -80,8 +80,25 @@ README 文件是人们通常最先看到的第一个东西。它应该告诉人�
 https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>
 ```
 
-为了约束话期间，我们对 COLOR 的用法进行了约定，将 COLOR 与 LABEL 进行了关联约束：
+给出一个相应的徽章定义示例：
 
+```
+<img src="https://img.shields.io/badge/Organization-%20Gao%20Group%20@%20HDUMIL-blue"></img>
+```
+
+<img src="https://img.shields.io/badge/Organization-%20Gao%20Group%20@%20HDUMIL-blue"></img>
+
+我们，也可以同时用 a 标签来嵌套这个 img 标签，从而实现点击跳跃到相应的地址，如：
+
+```
+<a href="https://github.com/HDUMIL-Gao-Group"><img src="https://img.shields.io/badge/Organization-%20Gao%20Group%20@%20HDUMIL-blue"></img></a>
+```
+
+<a href="https://github.com/HDUMIL-Gao-Group"><img src="https://img.shields.io/badge/Organization-%20Gao%20Group%20@%20HDUMIL-blue"></img></a>
+
+这样，就可以点击上面的标签，直接跳转到我们的团队主目录下。
+
+为了标准化起见，我们对 COLOR 的用法进行了约定，将 COLOR 与 LABEL 进行了关联约束：
 
 - `<Organization>` 组织名 : `<blue>`
 
@@ -94,7 +111,6 @@ https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>
 - `<Category>` 任务分类：`<green>`，用来说明当前任务是属于说明类别，是属于组会的论文讲解任务，进度汇报任务还是科研实验项目等。
 
 - `<Grade>` 年纪：`<eb2f96>` 表示研三，`<f759ab>` 表示研二，`<ff85c0>` 表示研一，`<ffadd2>` 表示本科生。
-
 
 如果后续使用到了当前没有定义的徽章类别，那么需要继续统一协商绝对，指定该类别对应的颜色。
 
